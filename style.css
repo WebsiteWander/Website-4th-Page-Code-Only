@@ -1,0 +1,83 @@
+/* FOURTH PAGE OF WEBSITE */
+
+
+
+.clearfix {zoom:1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+
+/* ----------------------------------------------------------------- */
+/* HOW IT WORKS */
+/* ----------------------------------------------------------------- */
+
+
+
+.section-steps {           /* Subtle background color */
+    background-color: #f4f4f4;
+}
+
+
+.steps-box:first-child {   /* This will select the first of the setp-boxes */
+    text-align: right;     /* This will move image to the right side; the text-align also effects image in the box */
+    padding-right: 3%;     /* The padding being percentage is for the website page fluidity */
+    margin-top: 30px;      /* First box will have 30px on top */
+}
+    
+
+.steps-box:last-child {    /* This will select the last of the setp-boxes */
+    padding-left: 3%;
+    margin-top: 70px;      /* Second box will have 70px on top */
+}
+
+
+
+.app-screen {
+    width: 40%;            /* This makes the iPhone image now 40% inside the block, making the image much smaller */
+}
+    
+    
+
+.works-step {              /* The class for the numbers and descriptions in this section */
+    margin-bottom: 50px;   /* Space in between the numbers and descriptions in this section */
+}    
+
+
+
+.works-step:last-of-type {  /* Only the last number will be affected. Only Number 3 is affected by this */
+    margin-bottom: 80px;    /* Only the last number will have a margin bottom of 80px; the rest will stay the same */
+}
+
+
+
+.works-step div {         /* Just the Numbers in class works-steps */
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;   /* To prevent the elements from forcing a line break, to put numbers next to the text */
+   
+    /* These are to make the rectangles around the numbers into circles*/
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    /* End of rectangle to circle code */
+    
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;   /* Moves circled numbers to the left */
+}
+
+
+.btn-app img {
+    height: 50px;     /* Makes both button app images the same size */
+    width: auto;
+    margin-right: 10px;  /* Puts Space in between the two images */
+    
+}
